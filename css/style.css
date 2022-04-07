@@ -5,9 +5,8 @@
   }
   
   body {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-      font-size: 16px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 14px;
   }
   
   h1,
@@ -38,7 +37,13 @@
 
   /* PAGE --- */
 
-  h1, p {
+  h1 {
+      font-size: 36px;
+      text-align: center;
+      color: rgb(255, 93, 93);
+  }
+
+  p {
       text-align: center;
   }
 
@@ -48,17 +53,18 @@
 
   h2 {
       margin: 0;
-      font-size: 16px;
+      font-size: 14px;
   }
 
   span {
       display: block;
+      margin: 10px 0px 10px;
   }
 
   .card {
       width: calc((100% / 3) - 30px);
       height: 100px;
-      margin: 30px 15px;
+      margin: 20px 15px;
       float: left;
       background-color: black;
       color: white;
@@ -67,6 +73,7 @@
   .contact {
       float: right;
       width: calc(100% - 100px);
+      padding: calc((100px - 71px) / 2);
   }
 
   .card a {
