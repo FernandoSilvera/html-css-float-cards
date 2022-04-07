@@ -28,7 +28,6 @@
     max-width: 960px;
     min-width: 300px;
     margin: 0 auto;
-    padding: 2em 1em;
   }
   
   .clearfix::after {
@@ -41,4 +40,35 @@
 
   h1, p {
       text-align: center;
+  }
+
+  img {
+      height: 100%;
+  }
+
+  h2 {
+      margin: 0;
+      font-size: 16px;
+  }
+
+  span {
+      display: block;
+  }
+
+  .card {
+      width: calc((100% / 3) - 30px);
+      height: 100px;
+      margin: 30px 15px;
+      float: left;
+      background-color: black;
+      color: white;
+  }
+
+  .contact {
+      float: right;
+      width: calc(100% - 100px);
+  }
+
+  .card a {
+    color: rgb(42, 255, 255);
   }
